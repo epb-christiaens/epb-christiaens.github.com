@@ -71,10 +71,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* #A0A0A0 */
 /* line 31, ../sass/screen.scss */
 body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans serif;
+  font-family: Arial, Verdana, sans-serif;
   color: #aaaaaa;
   line-height: 1;
   background-color: #58585a;
+  letter-spacing: 1px;
   /*
   	max-width: $bodyWidth;
   */
@@ -102,13 +103,13 @@ body ::selection {
   background: #83a642;
 }
 
-/* line 48, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 a {
   color: #83a642;
   cursor: default;
 }
 
-/* line 53, ../sass/screen.scss */
+/* line 54, ../sass/screen.scss */
 header {
   height: 138px;
   width: 100%;
@@ -119,30 +120,30 @@ header {
   padding-top: 2em;
   border-bottom: 2px solid #83a642;
 }
-/* line 68, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 header .top {
   height: 105px;
 }
-/* line 70, ../sass/screen.scss */
+/* line 71, ../sass/screen.scss */
 header .top h1 {
   color: #83a642;
   font-size: 50px;
   font-weight: 900;
 }
-/* line 77, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 header nav {
   /*
   text-align: center;
   */
 }
-/* line 81, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 header nav ul {
   width: 960px;
   list-style-type: none;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 90, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 header nav ul li {
   text-decoration: none;
   display: inline-block;
@@ -151,82 +152,82 @@ header nav ul li {
   padding-right: 0.7em;
   line-height: 33px;
 }
-/* line 99, ../sass/screen.scss */
+/* line 100, ../sass/screen.scss */
 header nav ul li.active {
   border-top: 2px solid #83a642;
   border-left: 2px solid #83a642;
   border-right: 2px solid #83a642;
   background-color: #58585a;
 }
-/* line 106, ../sass/screen.scss */
+/* line 107, ../sass/screen.scss */
 header nav ul li:hover {
   text-shadow: 0 1px 0 #aaaaaa;
 }
-/* line 110, ../sass/screen.scss */
+/* line 111, ../sass/screen.scss */
 header nav ul li.active:hover {
   text-shadow: none;
 }
-/* line 114, ../sass/screen.scss */
+/* line 115, ../sass/screen.scss */
 header nav ul li:last {
   padding-right: 0;
 }
-/* line 119, ../sass/screen.scss */
+/* line 120, ../sass/screen.scss */
 header nav a {
   text-decoration: none;
   color: #aaaaaa;
 }
 
-/* line 126, ../sass/screen.scss */
+/* line 127, ../sass/screen.scss */
 #main {
   margin-top: 2em;
 }
 
-/* line 130, ../sass/screen.scss */
+/* line 131, ../sass/screen.scss */
 .content {
   width: 960px;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 134, ../sass/screen.scss */
+/* line 135, ../sass/screen.scss */
 .content p {
   margin-bottom: 1.3em;
 }
 
-/* line 143, ../sass/screen.scss */
+/* line 144, ../sass/screen.scss */
 .centered {
   width: 760px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 151, ../sass/screen.scss */
+/* line 152, ../sass/screen.scss */
 #map {
   width: 300px;
   height: 200px;
 }
 
-/* line 156, ../sass/screen.scss */
+/* line 157, ../sass/screen.scss */
 sub, sup {
   font-size: 50%;
 }
 
-/* line 160, ../sass/screen.scss */
+/* line 161, ../sass/screen.scss */
 sup {
   vertical-align: super;
 }
 
-/* line 164, ../sass/screen.scss */
+/* line 165, ../sass/screen.scss */
 sub {
   vertical-align: bottom;
 }
 
-/* line 167, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 i[class^="icon"] {
   color: #83a642;
 }
 
-/* line 171, ../sass/screen.scss */
+/* line 172, ../sass/screen.scss */
 h3 {
   color: #83a642;
   font-size: 18px;
@@ -235,17 +236,17 @@ h3 {
   margin-top: 5px;
 }
 
-/* line 179, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
 p.center {
   text-align: center;
 }
 
-/* line 183, ../sass/screen.scss */
+/* line 184, ../sass/screen.scss */
 table {
   font-size: 80%;
   margin-bottom: 2em;
 }
-/* line 187, ../sass/screen.scss */
+/* line 188, ../sass/screen.scss */
 table th, table td {
   border-style: solid;
   border-width: 3px;
@@ -254,19 +255,19 @@ table th, table td {
   padding-bottom: 3px;
   padding-left: 8px;
 }
-/* line 200, ../sass/screen.scss */
+/* line 201, ../sass/screen.scss */
 table th {
   background-color: #404040;
   font-weight: 900;
   padding-left: 4px;
 }
 
-/* line 207, ../sass/screen.scss */
+/* line 208, ../sass/screen.scss */
 i {
   font-style: italic;
 }
 
-/* line 211, ../sass/screen.scss */
+/* line 212, ../sass/screen.scss */
 b {
   font-weight: 900;
 }
