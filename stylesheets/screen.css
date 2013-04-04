@@ -218,12 +218,12 @@ sub {
   vertical-align: bottom;
 }
 
-/* line 168, ../sass/screen.scss */
-ul {
-  list-style-type: circle;
+/* line 167, ../sass/screen.scss */
+i[class^="icon"] {
+  color: #83a642;
 }
 
-/* line 172, ../sass/screen.scss */
+/* line 171, ../sass/screen.scss */
 h3 {
   color: #83a642;
   font-size: 25px;
@@ -232,16 +232,16 @@ h3 {
   margin-top: 5px;
 }
 
-/* line 180, ../sass/screen.scss */
+/* line 179, ../sass/screen.scss */
 p.center {
   text-align: center;
 }
 
-/* line 184, ../sass/screen.scss */
+/* line 183, ../sass/screen.scss */
 table {
   margin-bottom: 2em;
 }
-/* line 185, ../sass/screen.scss */
+/* line 184, ../sass/screen.scss */
 table th, table td {
   border-style: solid;
   border-width: 3px;
