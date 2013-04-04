@@ -71,10 +71,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* #A0A0A0 */
 /* line 31, ../sass/screen.scss */
 body {
-  font-size: 1.1em;
   font-family: "Helvetica Neue", Helvetica, Arial, serif;
   color: #aaaaaa;
-  line-height: 1.2;
+  line-height: 1;
   background-color: #58585a;
   /*
   	max-width: $bodyWidth;
@@ -103,15 +102,15 @@ body ::selection {
   background: #83a642;
 }
 
-/* line 49, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 a {
   color: #83a642;
   cursor: default;
 }
 
-/* line 54, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 header {
-  height: 128px;
+  height: 138px;
   width: 100%;
   min-width: 960px;
   background-color: #404040;
@@ -122,24 +121,24 @@ header {
   padding-right: 50px;
   border-bottom: 2px solid #83a642;
 }
-/* line 71, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 header .top {
-  height: 95px;
+  height: 105px;
 }
-/* line 73, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 header .top h1 {
   color: #83a642;
   font-size: 50px;
   font-weight: 900;
 }
-/* line 81, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 header nav ul {
   width: 960px;
   list-style-type: none;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 90, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 header nav ul li {
   text-decoration: none;
   display: inline-block;
@@ -148,82 +147,82 @@ header nav ul li {
   padding-right: 0.7em;
   line-height: 33px;
 }
-/* line 99, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 header nav ul li.active {
   border-top: 2px solid #83a642;
   border-left: 2px solid #83a642;
   border-right: 2px solid #83a642;
   background-color: #58585a;
 }
-/* line 106, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 header nav ul li:hover {
   text-shadow: 0 1px 0 #aaaaaa;
 }
-/* line 110, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 header nav ul li.active:hover {
   text-shadow: none;
 }
-/* line 114, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 header nav ul li:last {
   padding-right: 0;
 }
-/* line 119, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 header nav a {
   text-decoration: none;
   color: #aaaaaa;
 }
 
-/* line 126, ../sass/screen.scss */
+/* line 125, ../sass/screen.scss */
 #main {
   margin-top: 2em;
 }
 
-/* line 130, ../sass/screen.scss */
+/* line 129, ../sass/screen.scss */
 .content {
   width: 960px;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 134, ../sass/screen.scss */
+/* line 133, ../sass/screen.scss */
 .content p {
   margin-bottom: 1.3em;
 }
 
-/* line 143, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 .centered {
   width: 760px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 151, ../sass/screen.scss */
+/* line 150, ../sass/screen.scss */
 #map {
   width: 300px;
   height: 200px;
 }
 
-/* line 156, ../sass/screen.scss */
+/* line 155, ../sass/screen.scss */
 sub, sup {
   font-size: 50%;
 }
 
-/* line 160, ../sass/screen.scss */
+/* line 159, ../sass/screen.scss */
 sup {
   vertical-align: super;
 }
 
-/* line 164, ../sass/screen.scss */
+/* line 163, ../sass/screen.scss */
 sub {
   vertical-align: bottom;
 }
 
-/* line 167, ../sass/screen.scss */
+/* line 166, ../sass/screen.scss */
 i[class^="icon"] {
   color: #83a642;
 }
 
-/* line 171, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 h3 {
   color: #83a642;
   font-size: 25px;
@@ -232,16 +231,16 @@ h3 {
   margin-top: 5px;
 }
 
-/* line 179, ../sass/screen.scss */
+/* line 178, ../sass/screen.scss */
 p.center {
   text-align: center;
 }
 
-/* line 183, ../sass/screen.scss */
+/* line 182, ../sass/screen.scss */
 table {
   margin-bottom: 2em;
 }
-/* line 184, ../sass/screen.scss */
+/* line 183, ../sass/screen.scss */
 table th, table td {
   border-style: solid;
   border-width: 3px;
