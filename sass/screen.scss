@@ -6,17 +6,19 @@
 @import "compass"; 
 @import "compass/reset";
 
-$separator: 2px;
+$separator: 3px;
 $headerHeight: 140px;
 $bodyWidth: 1440px;
 $siteWidth: 960px;
 $menuItems: 6;
 $navHeight: 35px;
 
-$darkGray: #404040; /* */
+/* $darkGray: #404040; */
+$darkGray: #404040; /* #A0A0A0 */
 $lightGray: #58585A; /* #A0A0A0 */
+$contentBgColor: #DDD; /* #A0A0A0 */
 $green: #83A642;
-$text: #AAA;
+$text: #000;
 
 $prefixes: ("-webkit-","-moz-", "-o-", "");
 @mixin selection($color, $background) {
@@ -28,15 +30,28 @@ $prefixes: ("-webkit-","-moz-", "-o-", "");
     }
 }
 
+html {
+	
+}
+
 body {
+	background-color: $lightGray;
+	@include filter-gradient($contentBgColor, $lightGray, horizontal); // IE6-9 fallback on horizontal gradient
+	@include background-image(radial-gradient(center top, ellipse cover,  $contentBgColor 50%,$lightGray 100%));
 	@include selection(white, $green);
 	font: {
 		family: Arial, Verdana, sans-serif;
 	}
 	color: $text;
 	line-height: 1;
-	background-color: $lightGray;
+	height: 100%;
 	letter-spacing: 1px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
 /*
 	max-width: $bodyWidth;
 */
@@ -56,6 +71,7 @@ header {
 	width: 100%;
 	min-width: $siteWidth;
 	background-color: $darkGray;
+	
 	margin: {
 		left: auto;
 		right: auto;
@@ -68,10 +84,14 @@ header {
 	
 	.top {
 		height: $headerHeight - $navHeight;
+		color: $green;
 		h1 {
-			color: $green;
+			
 			font-size: 50px;
 			font-weight: 900;
+		}
+		h2 {
+			margin-left: 3px;
 		}
 	}
 	
@@ -95,13 +115,22 @@ header {
 				padding-left: 0.7em;
 				padding-right: 0.7em;
 				line-height: $navHeight - $separator;
+				
+				a {
+					text-decoration: none;
+					color: $green;
+				}
 			}
 			
 			li.active {
 				border-top: $separator solid $green;
 				border-left: $separator solid $green;
 				border-right: $separator solid $green;
-				background-color: $lightGray;
+				background-color: $contentBgColor;
+				
+				a {
+					color: $text;
+				}
 			}
 			
 			li:hover {
@@ -117,17 +146,38 @@ header {
 			}
 		}
 		
-		a {
-			text-decoration: none;
-			color: $text;
-		}
+
 	}
 }
 
 #main {
-	margin-top: 2em;
+	
+}
+.main {
+	width: $siteWidth;
+	background-color: rgba($contentBgColor,0);
+	
+
+	margin: {
+		left:auto;
+		right: auto;
+	}	
 }
 
+section.content {
+	margin: {
+		top: 2em;
+		bottom: 2em;
+		
+		}
+		width: 90%;
+	
+	h1 {
+		color: $green;
+		font-size: 18px;
+		margin-bottom: 2em;
+	}
+}
 .content {
 		width: $siteWidth;
 		height: 100%;
@@ -142,7 +192,7 @@ header {
 	}
 	
 .centered {
-	width: $siteWidth - 200;
+	width: 580px;
 	margin: {
 		left: auto;
 		right: auto;
@@ -199,9 +249,10 @@ table {
 	}
 	
 	th {
-		background-color: $darkGray;
+		background-color: $lightGray;
 		font-weight: 900;
 		padding-left: 4px;
+		color: $green;
 	}
 }
 
@@ -212,4 +263,8 @@ i {
 b {
 	color: $green;
 	font-weight: 600;
+}
+
+img {
+	width: 580px;
 }
