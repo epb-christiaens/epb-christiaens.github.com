@@ -90,7 +90,7 @@ body {
   background-image: -moz-radial-gradient(center top, ellipse cover, #dddddd 50%, #58585a 100%);
   background-image: -o-radial-gradient(center top, ellipse cover, #dddddd 50%, #58585a 100%);
   background-image: radial-gradient(center top, ellipse cover, #dddddd 50%, #58585a 100%);
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'PT Sans', Arial, Verdana, sans-serif;
   color: black;
   line-height: 1;
   height: 100%;
