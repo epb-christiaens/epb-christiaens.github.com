@@ -332,3 +332,7 @@ img {
 .icon-envelope {
   margin-right: 5px;
 }
+
+.street-address {
+  float: left;
+}
