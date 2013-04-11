@@ -28,6 +28,11 @@ li {
   clear: left;
 }
 
+li > span {
+  margin-left: 20px;
+  display: block;
+}
+
 /* line 22, ../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
